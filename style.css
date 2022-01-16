@@ -132,7 +132,13 @@ nav ul li a{
 }
 .see-more{
     text-align: right;
+    margin-top: 15px;
 } 
+.see-more a{
+    color: #E02C6D;
+    text-decoration: none;
+   
+}
 .our-client{
     display: flex;
     flex-direction: column;
