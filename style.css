@@ -56,6 +56,14 @@ nav ul li a{
    border: none;
    color: #FFFFFF
 }
+.banner-img img{
+    transition: 0.5s;
+}
+.banner-img img:hover{
+    transform: scale(1.2);
+
+
+}
 .area-title{
     font-size: 28px;
     color: #3A3A3A;
@@ -81,13 +89,21 @@ nav ul li a{
 .collection{
     width: 301px;
     height: 448px;
+    overflow: hidden;
    padding: 14px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .collection img{
     width: 300px;
     height: 256px;
+    transition: 0.5s;
+    border-radius: 5px;
     
+    
+}
+.collection img:hover{
+    transform: scale(1.1);
+
 }
 .collection h2{
     font-size: 28px;
@@ -117,6 +133,25 @@ nav ul li a{
 .see-more{
     text-align: right;
 } 
+.our-client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.client img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
 
 /* code for footer  */
 footer{
